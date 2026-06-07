@@ -1,0 +1,401 @@
+Collecting python-docx
+  Downloading python_docx-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+Requirement already satisfied: openpyxl in d:\anaconda\lib\site-packages (3.1.5)
+Requirement already satisfied: pandas in d:\anaconda\lib\site-packages (2.3.3)
+Requirement already satisfied: lxml>=3.1.0 in d:\anaconda\lib\site-packages (from python-docx) (5.3.0)
+Requirement already satisfied: typing_extensions>=4.9.0 in d:\anaconda\lib\site-packages (from python-docx) (4.15.0)
+Requirement already satisfied: et-xmlfile in d:\anaconda\lib\site-packages (from openpyxl) (2.0.0)
+Requirement already satisfied: numpy>=1.26.0 in d:\anaconda\lib\site-packages (from pandas) (2.3.5)
+Requirement already satisfied: python-dateutil>=2.8.2 in d:\anaconda\lib\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in d:\anaconda\lib\site-packages (from pandas) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in d:\anaconda\lib\site-packages (from pandas) (2025.2)
+Requirement already satisfied: six>=1.5 in d:\anaconda\lib\site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Downloading python_docx-1.2.0-py3-none-any.whl (252 kB)
+Installing collected packages: python-docx
+Successfully installed python-docx-1.2.0
+Menginstal dependency...
+========== CAPSTONE PLAYBOOK ==========
+Playbook Capstone Project
+Pijak in collaboration with IBM SkillsBuild
+Dokumen ini bersifat dinamis yang akan selalu diperbarui sesuai kebutuhan. Pastikan untuk melakukan pengecekan dokumen secara berkala.
+
+Untuk memudahkan Anda dalam menemukan jawaban dari pertanyaan Anda, silakan gunakan fitur Search atau Ctrl+F lalu ketikkan kata kunci yang diinginkan
+Daftar isi
+Tentang Capstone Project
+Capstone Project merupakan tahap akhir dari seluruh rangkaian kegiatan belajar di Program Pijak in collaboration with IBM Skillsbuild yang dirancang sebagai tugas akhir secara terstruktur. Proyek ini dibuat khusus untuk mengukur pencapaian akhir peserta melalui pengalaman belajar yang disebut Major Design Experience. 
+Major Design Experience adalah proses pembelajaran berbasis proyek dimana peserta mengidentifikasi permasalahan nyata, merancang solusi secara sistematis, dan menghasilkan produk akhir yang dapat diimplementasikan. Pengalaman ini menekankan penerapan keterampilan teknis, kreativitas, kolaborasi, serta kemampuan berpikir kritis dan analitis yang telah dipelajari selama mengikuti Program Pijak in collaboration with IBM Skillsbuild.
+Melalui Capstone Project, peserta ditantang untuk menyelesaikan masalah yang berasal dari permasalahan nyata yang dihadapi industri atau fenomena/kebutuhan di lingkungan sekitar, baik secara individu, komunitas, maupun masyarakat luas. Maka produk akhir dari proyek ini harus dapat menjadi solusi nyata yang relevan dan bermanfaat bagi perusahaan atau masyarakat. 
+Selama menjalani Capstone Project, peserta akan bekerja secara tim untuk merancang solusi dan menyelesaikan proyek. Peserta akan menerapkan pendekatan engineering design, yang mencakup proses identifikasi masalah, eksplorasi ide, pengembangan prototipe, hingga evaluasi solusi.
+Selain menjadi sarana untuk menunjukkan kemampuan, Capstone Project juga menjadi bekal penting bagi peserta untuk mempersiapkan diri menghadapi dunia kerja dan tantangan industri di masa depan.
+Peraturan Umum Capstone Project
+Tidak ada toleransi untuk plagiarisme
+Sebelum mengerjakan proyek capstone Anda, mohon perhatikan beberapa ketentuan berikut: 
+Peserta wajib membangun proyek dari awal.
+Dilarang menyalin penuh repository atau kode dari sumber lain tanpa adanya perubahan/modifikasi.
+Peserta boleh merujuk, artinya peserta memahami lalu menulis ulang dan memodifikasi kode yang sudah ada. Berbeda dengan menyalin, yaitu langsung menempel kode tanpa tahu isinya.
+Peserta diperbolehkan menggunakan framework, bahasa pemrograman, teknik, tools, atau kode yang pernah dibuat sendiri sebelumnya.
+Salah satu yang disarankan adalah dengan mencoba mengimplementasikan ulang solusi dengan gaya/bahasa sendiri, misalnya menulis ulang atau mem-porting dari referensi.
+Untuk model Machine Learning, peserta boleh menggunakan mekanisme pembelajaran atau transfer learning dari model yang sudah ada, asalkan tidak sekadar memasukkan model jadi tanpa usaha pengembangan lebih lanjut.
+Semua proyek harus dilakukan dengan Kode Etik Pijak
+Peserta dilarang meminta bantuan dari pihak eksternal untuk proses pengerjaan capstone project. Apabila peserta terindikasi atau terbukti mengerjakan capstone project dengan bantuan pihak eksternal, maka peserta harus siap dengan risiko yang ada termasuk penonaktifan status peserta dan/atau tidak lulus dari program Pijak in collaboration with IBM Skillsbuild.
+Peserta dapat menggunakan API/Sumber Data/Pustaka publik apa pun
+Peserta boleh menggunakan dataset dari Kaggle, Satu Data Indonesia, Google Research Dataset, Google Cloud Public Dataset, atau platform lain yang relevan dengan proyek.
+Cantumkan kutipan/sumber dengan benar untuk setiap dataset atau referensi yang digunakan.
+Disarankan menggunakan perangkat lunak atau library sumber terbuka.
+Penggunaan AutoML tidak diperbolehkan untuk tim.
+Semua pekerjaan proyek harus didokumentasikan dengan baik.
+Untuk pengumpulan project, tim wajib mengunggah ke GitHub dengan pengaturan private.
+Sertakan file README yang lengkap dan komprehensif di GitHub berisi:
+Cara instalasi dan penyiapan proyek
+Petunjuk penggunaan
+Informasi penting lainnya terkait proyek
+Sebagai bentuk perlindungan data, jangan mencantumkan detail spesifik yang bersifat rahasia seperti credential/API key/Password/Data Sensitif.
+Hasil akhir Capstone Project
+Membangun antarmuka web sederhana (misalnya menggunakan Streamlit) yang terintegrasi dengan setidaknya satu fitur Machine Learning atau Deep Learning. Tim Capstone diwajibkan menyajikan model tersebut sebagai sebuah endpoint yang fungsional dan dapat digunakan secara interaktif melalui antarmuka yang dibangun.
+Timeline Capstone Project
+Berikut ini merupakan timeline atau jadwal pelaksanaan kegiatan capstone project Pijak in collaboration with IBM Skillsbuild.
+Timeline secara lengkap dapat Anda akses melalui link berikut: 
+Timeline Capstone Project
+Pilihan Tema Capstone Project
+Pada program Pijak in collaboration with IBM Skillsbuild, peserta dapat memilih salah satu tema capstone project sebagaimana yang terlampir di bawah ini:
+AI for Productivity and Automation
+AI for Smart Education
+AI for Smart Recommendation Systems
+AI for Smart Tourism Experience
+AI for Business Intelligence and Market Insights
+Deskripsi tema capstone dapat Anda akses melalui link berikut:
+Aktivitas Capstone Project
+Tahap 1. Pendaftaran tim Capstone
+Pada tahap ini, peserta harus melakukan pendaftaran tim capstone melalui formulir pendaftaran yang telah kami sediakan. Setiap peserta dapat menentukan anggota dan mendaftarkan tim secara mandiri, serta menentukan tema mana yang dipilih untuk capstone proyeknya. Tahap ini menjadi langkah awal bagi peserta untuk memulai perjalanan capstone project pada program Pijak in collaboration with IBM Skillsbuild. 
+Silakan daftarkan tim Anda sebelum tanggal 16 April 2026, melalui formulir berikut:
+Catatan Penting:
+Peserta dapat membentuk anggota tim capstone dengan komposisi/jumlah 4-5 anggota.
+Tim capstone yang dibentuk harus berdasarkan pada kategori peserta yang terdaftar di program Pijak:
+Kategori Umum
+Kategori Mahasiswa
+Pendaftaran tim yang tidak sesuai dengan kategori akan menyebabkan pendaftaran yang gagal/invalid. 
+Pendaftaran tim capstone dapat dilakukan pada periode: 31 Maret - 16 April 2026 pukul 23.59 WIB.
+Formulir wajib diisi oleh 1 orang perwakilan tim. Jika terjadi double submission, maka submission/pendaftaran pertama yang akan kami validasi.
+Dilarang memasukkan/mendaftarkan anggota kelompok tanpa persetujuan mereka. Pelanggaran akan mengakibatkan pengurangan nilai untuk individu yang bertanggung jawab atas pengajuan tersebut, dan status grup dapat diubah menjadi INVALID.
+Ingat! Bagi peserta yang tidak mendapatkan kelompok hingga batas waktu yang ditentukan maka peserta akan dibuatkan tim secara acak (random) oleh Tim Pijak sesuai dengan ketersediaan peserta yang ada dengan komposisi tim yang mungkin tidak ideal/tidak sesuai dengan ketentuan yang kami sediakan.
+Pembentukan tim capstone secara acak (random) akan disesuaikan pembentukan timnya dengan progress kelas dan jumlah kelas yang telah diselesaikan oleh masing-masing peserta (tentatif, sesuai dengan ketersediaan peserta yang ada).
+Setelah proses registrasi selesai, peserta akan mendapatkan email validasi final tim capstone yang didalamnya terdapat informasi ID tim capstone, email Google Group, dan informasi detail anggota. Silakan gunakan email google group untuk mengirimkan pesan email pada seluruh anggota, karena email google group telah mencakup email seluruh anggota tim.
+Untuk memudahkan koordinasi dan diskusi antar anggota, peserta diperbolehkan membuat grup Whatsapp dengan masing-masing anggota tim capstone.
+Tahap 2. Perencanaan Proyek Capstone
+Pengisian Dokumen Pakta Integritas
+Pakta Integritas adalah dokumen yang berisi kesepakatan/janji/komitmen mengenai etika pengerjaan proyek, kejujuran akademik, serta kesungguhan dalam menyelesaikan project hingga tahap akhir. Setiap tim wajib menandatangani pakta integritas sebagai bentuk komitmen untuk menjalankan capstone project secara profesional. 
+Sebelum mengisi dokumen pakta integritas, harap perhatikan beberapa ketentuan berikut ini:
+Dokumen Pakta Integritas harus diketahui dan ditandatangani oleh semua anggota tim.
+Jika tim capstone ditemukan melakukan kecurangan akademik/melibatkan pihak ketiga dalam menyelesaikan proyeknya/melakukan pelanggaran lainnya, baik yang telah ditentukan maupun di luar peraturan yang telah ditetapkan oleh Tim Pijak, maka kami akan menggunakan dokumen ini sebagai dasar hukum untuk memberikan sanksi kepada tim/anggota yang terlibat dalam pelanggaran tersebut.
+Silakan gunakan dokumen template Pakta Integritas yang disediakan oleh Tim Pijak di sini: Template Pakta Integritas (harus ditandatangani oleh semua anggota tim)
+Dokumen Pakta Integritas akan diserahkan bersamaan dengan pengumpulan dokumen project plan.
+Penyusunan & Pengumpulan Dokumen Project Plan
+Setelah tim dinyatakan valid baik pada tahap validasi awal maupun tahap validasi akhir, maka tim capstone harus segera membuat dokumen project plan yang berisi rencana pengembangan proyek yang akan dilakukan bersama tim sesuai dengan tipe capstone yang dipilih. Dokumen project plan harus mencakup beberapa bagian perencanaan seperti latar belakang dan tujuan proyek, ruang lingkup, jadwal, sumber daya, serta strategi manajemen risiko yang akan dilaksanakan oleh tim capstone.
+Sebelum menyusun dokumen project plan, mohon perhatikan informasi berikut ini:
+Silakan gunakan template dokumen project plan berikut: Template Dokumen Project Plan.
+Format penamaan file: Project Plan - [ID Tim Capstone]
+Periode penyusunan dokumen project plan dapat dilakukan pada tanggal 20 April - 7 Mei 2026. Pastikan Anda mengumpulkan dokumen project plan tepat waktu, paling lambat pada tanggal 7 Mei 2026 pukul 23.59 WIB.
+Silakan kumpulkan dokumen project plan Anda dengan mengakses link berikut:
+Dokumen project plan dikumpulkan oleh 1 orang perwakilan (ketua tim).
+Review Project Plan oleh Asesor
+Setelah seluruh dokumen project plan terkumpul, selanjutnya dokumen project plan akan masuk ke tahap Review oleh Asesor. Asesor merupakan tim profesional yang bertugas untuk mengevaluasi kelayakan dan kesiapan dokumen proyek capstone tim Anda. Review ini mencakup beberapa indikator penilaian sebagaimana yang tercantum pada informasi indikator penilaian di sini.
+Pengumuman hasil review dokumen project plan akan disampaikan pada tanggal 11 Mei 2026.
+Berdasarkan hasil review/penilaian Asesor, project tim Anda akan memperoleh salah satu dari 2 (dua) status berikut:
+Diterima
+Dokumen Project Plan tim Anda telah dinilai layak dan dapat dilanjutkan ke tahap implementasi tanpa adanya catatan tertentu dari Asesor.
+Diterima dengan Catatan
+Dokumen project plan Anda memerlukan beberapa perbaikan berdasarkan catatan dari Asesor. Dalam hal ini, tim Anda tidak perlu mengirimkan / mengumpulkan dokumen revisi project plan yang baru. Cukup lakukan revisi langsung pada dokumen Project Brief sesuai dengan arahan yang diberikan oleh Asesor. Pastikan seluruh revisi dilakukan dengan jelas dan lengkap untuk mendukung kelancaran proses project tim Anda selanjutnya.
+Ketika email pemberitahuan hasil review sudah diterima, harap membaca catatan dari asesor dengan saksama dan segera melakukan perbaikan sesuai dengan catatan Asesor. Jika komentar/catatan Asesor atas hasil penilaian tim Anda dirasa kurang jelas, silakan untuk segera menghubungi Tim Pijak melalui email untuk melakukan klarifikasi lebih lanjut.
+Tahap 3. Pengerjaan/Implementasi Proyek Capstone
+Penyusunan Dokumen Project Brief
+Pada tahap pengerjaan/implementasi proyek capstone, tim Anda akan mengimplementasikan ide dan rencana yang telah disusun melalui dokumen project plan menjadi sebuah produk nyata yang dapat difungsikan. Dalam hal ini, seluruh proses implementasi dan hasil yang dicapai harus didokumentasikan ke dalam sebuah dokumen yang dikenal dengan Dokumen Project Brief. Melalui dokumen project brief, Asesor/stakeholder terkait dapat lebih memahami bagaimana produk yang tim Anda hasilkan dapat dioperasikan dengan baik dan sesuai dengan rencana serta case/tipe capstone yang telah dipilih.
+Berikut adalah beberapa informasi penting yang harus Anda perhatikan dalam proses penyusunan dokumen project brief:
+Silakan gunakan template project brief berikut: Template Project Brief
+Format penamaan file: Project Brief - [ID Tim Capstone]
+Proyek harus dikembangkan berdasarkan rencana yang telah disusun sebelumnya melalui dokumen project plan.
+Revisi/catatan asesor atas project plan dapat dilakukan dan diimplementasikan langsung pada dokumen Project Brief, tanpa perlu mengunggah ulang dokumen project plan yang baru.
+Seluruh anggota tim diharapkan aktif berkoordinasi, kontribusi, dan berbagi peran untuk memastikan proyek berjalan lancar dan selesai tepat waktu.
+Dokumentasikan seluruh pekerjaan dan progress pengembangan proyek dengan detail dan terstruktur untuk hasil akhir yang maksimal.
+Pastikan seluruh link yang tim Anda cantumkan pada dokumen project brief dapat difungsikan dengan baik dan dapat diakses oleh Asesor dan Tim Pijak.
+Implementasi dan penyusunan dokumen project brief dapat Anda lakukan pada periode 11 Mei - 19 Juni 2026.
+Dokumen project brief dapat dikumpulkan melalui link berikut: 
+Formulir Pengumpulan Dokumen
+Mekanisme Sesi Mentoring bersama Advisor
+Setiap tim capstone akan mendapatkan 1 orang Advisor Teknikal dengan bidang keahlian Artificial Intelligence yang akan memberikan bimbingan pada tim untuk menyelesaikan proyek capstone mereka. Berikut adalah mekanisme detail dan informasi penting untuk sesi mentoring Anda:
+
+*Silakan lakukan zoom out/perbesar tampilan pada bagian ini untuk memastikan alur sesi mentoring dapat dibaca dengan jelas.
+Catatan Penting:
+Sesi mentoring bersama Advisor merupakan sesi wajib dan harus diikuti oleh seluruh tim yang mendapatkan alokasi Advisor. 
+Periode mentoring bersama Advisor: 12 Mei - 14 Juni 2026 pukul 23.59 WIB.
+Sesi mentoring wajib dilaksanakan 1x.
+Tim capstone dapat mengajukan 1x sesi mentoring tambahan setelah menyelesaikan mentoring wajib. Silakan koordinasikan dengan Advisor terkait request tersebut.
+Pengajuan tambahan sesi mentoring harus disepakati oleh kedua belah pihak. Jika Advisor tidak bersedia untuk memberikan mentoring tambahan, maka mentoring tidak dapat dilaksanakan.
+Mentoring tambahan dapat dilakukan melalui Dicoding Mentoring Platform.
+Ingat! Kehadiran sesi mentoring menjadi salah satu indikator penilaian individu. Pastikan seluruh anggota tim hadir pada sesi mentoring tepat waktu dan berpartisipasi aktif selama mentoring.
+Untuk memastikan partisipasi dari seluruh anggota tim, pastikan tim Anda menjadwalkan sesi mentoring pada tanggal dan waktu yang telah disepakati oleh seluruh anggota dan memastikan seluruh anggota dapat hadir pada jadwal mentoring tersebut.
+Penjadwalan dan pelaksanaan sesi mentoring hanya dapat dilakukan melalui Dicoding Mentoring Platform. 
+Penting! Penjadwalan atau pelaksanaan sesi mentoring di luar platform tidak akan tercatat sebagai sesi mentoring yang telah terlaksana.
+Booking sesi mentoring hanya dapat dilakukan oleh 1 orang perwakilan (ketua tim). Apabila ketua tim/perwakilan anggota yang ditunjuk untuk melakukan booking sesi mentoring dinyatakan Tidak Aktif, silakan segera laporkan pada Tim Pijak melalui email dan informasikan siapa yang akan menggantikan anggota tidak aktif tersebut untuk melakukan booking sesi.
+Sebelum melaksanakan sesi mentoring, pastikan Anda telah membaca dokumen Panduan Penggunaan Dicoding Mentoring Platform dan mengisi Mentoring Working Doc yang tertera pada Master Sheet Tim Capstone.
+Pengisian Laporan Kemajuan
+Laporan kemajuan merupakan sebuah formulir yang wajib diisi oleh masing-masing individu untuk melaporkan status/progress pengerjaan capstone project timnya. Pengisian laporan kemajuan akan dilaksanakan pada pertengahan periode pengerjaan capstone project tepatnya pada tanggal 1 - 3 Juni 2026.
+Sebelum mengisi laporan kemajuan, silakan perhatikan beberapa informasi berikut:
+Batas akhir pengisian laporan kemajuan adalah 3 Juni 2026 pukul 23.59 WIB.
+Melakukan pertemuan internal tim capstone yang dihadiri oleh seluruh anggota tim. Hasil pertemuan akan dilaporkan pada laporan kemajuan.
+Formulir laporan kemajuan dapat diakses melalui link berikut: Formulir Laporan Kemajuan Capstone
+Formulir laporan kemajuan wajib diisi secara Individu (bukan perwakilan tim).
+Pengisian formulir laporan kemajuan dapat disamakan antara seluruh anggota dan disarankan untuk melakukan diskusi terlebih dahulu, terutama pada bagian persentase penyelesaian capstone project secara keseluruhan.
+Pada saat pengisian formulir laporan kemajuan, ketua tim akan diminta untuk mengunggah bukti pertemuan/diskusi tim yang dilakukan secara online. Pertemuan/diskusi tim yang dilaporkan bertujuan untuk memastikan bahwa seluruh tim telah saling terhubung dan diskusi awal sudah dilakukan. Sehingga potensi 
+Tahap 4. Evaluasi Capstone Project
+Pada tahap ini, tim capstone diminta untuk menyusun beberapa dokumen yang menunjukkan hasil akhir project yang telah dikerjakan, mempresentasikan project nya, dan memberikan penilaian pada masing-masing anggota tim sebagai proses evaluasi dalam kolaborasi pengerjaan capstone project. 
+Berikut ini merupakan beberapa aktivitas yang akan dilakukan oleh Tim Capstone:
+Pengumpulan Dokumen Final Deliverables
+Tim capstone diminta untuk menyusun beberapa dokumen yang menunjukkan hasil akhir project yang telah dikerjakan. Seluruh dokumen final deliverable dikumpulkan bersamaan dengan pengumpulan dokumen project brief pada tanggal 19 Juni 2026 pukul 23.59 WIB.
+Beberapa dokumen yang perlu disiapkan diantaranya:
+Dokumen Project Brief (.PDF) - ukuran file maksimal 10 MB
+Menggunakan template yang telah kami sediakan: Template Project Brief
+Format penamaan file: Project Brief - [ID Tim Capstone]
+Slide presentasi (.PPTX / .PDF) - ukuran file maksimal 10 MB
+Tidak ada template khusus untuk slide presentasi. Namun slide harus memuat beberapa poin berikut:
+Latar Belakang
+Alasan/Rumusan Masalah
+Perbandingan dengan aplikasi/produk serupa (jika ada)
+Hasil pengembangan produk
+Dokumentasi
+Rencana/Strategi implementasi produk beberapa bulan berikutnya yang dapat dilakukan oleh perusahaan (jika ada)
+Video presentasi tim yang berdurasi 10 menit (upload Youtube)
+Video berisi presentasi singkat yang menjelaskan isi dari slide yang telah dibuat sebelumnya. 
+Pastikan seluruh anggota hadir pada sesi presentasi dan mempresentasikan bagiannya masing-masing. 
+Video menampilkan wajah dari masing-masing anggota yang sedang mempresentasikan slidenya.
+
+GitHub repository (.ZIP) - ukuran file 100 - 200 MB
+Source Code (ZIP)
+Mohon perhatikan detail informasi berikut untuk memastikan dokumen GitHub yang Anda kirimkan sudah sesuai dengan ketentuan:
+Silakan download seluruh repository GitHub dalam bentuk file ZIP melalui tombol Code, dan klik Download ZIP. Lalu upload melalui form Project Brief yang telah disediakan.
+Item-item berikut wajib disertakan dalam berkas ZIP proyek:
+Source Code : Berkas kode aplikasi dan kode yang digunakan untuk pelatihan model, jika ada.
+Template Environment	: Jika Anda menggunakan berkas environment untuk kredensial (misalnya, .env), sertakan template berkas tersebut (misalnya .env.example) yang tidak diisi dengan nilai kredensial sensitif.
+Dependensi : Daftar atau berkas dependensi proyek (misalnya package.json)
+Konfigurasi Pendukung : Berkas konfigurasi lain yang relevan (misalnya .gitignore,  tsconfig.json).
+Berkas README wajib menyertakan informasi berikut:
+Deskripsi Singkat Proyek: Penjelasan ringkas mengenai proyek Anda.
+Petunjuk Setup Environment: Langkah-langkah detail tentang cara menyiapkan lingkungan kerja (environment setup).
+Tautan Model (Jika Ada): Tautan untuk mengunduh (download) dan memuat (load) model yang digunakan.
+Cara Menjalankan Aplikasi: Instruksi jelas tentang cara menjalankan aplikasi.
+
+Model AI / ML (Untuk project yang memiliki fitur AI / ML)
+Upload model ke folder Google Drive pribadi, cantumkan link pada file README di codebase. Pastikan akun pijak@student.devacademy.id memiliki akses untuk melihat dan mengunduh file model tersebut.
+Dokumen panduan penggunaan produk (.PDF) atau video tutorial penggunaan produk (video singkat) - ukuran file maksimal 10 MB (dokumen) / 100 MB (video)
+Jika Anda memilih untuk membuat dokumen panduan (pdf), buatlah dokumen panduan dengan singkat, jelas, namun tetap dapat dipahami dan memudahkan pengguna dalam mengoperasikan produk tim Anda.
+Jika Anda memilih untuk membuat Video tutorial, video dapat dibuat lebih menarik untuk menjelaskan penggunaan product.
+Seluruh dokumen Final Deliverable dapat dikumpulkan melalui link berikut:
+Penilaian 360 Feedback
+360 Feedback adalah mekanisme penilaian yang dilakukan oleh sesama anggota tim (peers) dalam capstone project. Melalui proses ini, setiap anggota tim diharuskan untuk memberikan evaluasi terhadap kinerja rekannya selama pengerjaan proyek. Tujuan utama dari pengisian formulir 360 Feedback adalah memastikan bahwa setiap anggota memperoleh penilaian yang adil, objektif, dan sesuai dengan kontribusi serta kinerjanya dalam tim. 
+Perhatikan beberapa informasi berikut:
+Penilaian 360 feedback dapat dilakukan pada tanggal 19 - 22 Juni 2026 pukul 23.59 WIB.
+Formulir penilaian 360 feedback dapat diakses melalui tautan berikut: 360 Feedback
+Penilaian 360 feedback dilakukan secara individu.
+Silakan berikan penilaian atas kinerja anggota baik anggota aktif maupun anggota tidak aktif.
+Hasil penilaian 360 Feedback akan berkontribusi terhadap penilaian akhir individu. Oleh karena itu, pastikan Anda memberikan penilaian secara jujur, objektif, dan sesuai dengan kontribusi serta kinerja anggota yang sebenarnya.
+Penilaian ini bertujuan untuk menciptakan proses evaluasi yang adil, sehingga setiap anggota mendapatkan apresiasi yang setara dengan usahanya.
+Aktivitas Checkpoint Capstone
+Checkpoint merupakan serangkaian kegiatan monitoring rutin yang dilakukan oleh Tim Pijak in collaboration with IBM Skillsbuild untuk memastikan progress capstone setiap tim dan individu berjalan sesuai dengan rencana dan timeline yang telah ditetapkan. Aktivitas ini juga bertujuan untuk menjaga konsistensi kinerja tim, meningkatkan kualitas hasil, dan memastikan setiap anggota berkontribusi sesuai perannya.
+Dalam aktivitas checkpoint ini, terdapat 2 aktivitas penting yang akan dilakukan oleh tim capstone baik secara individu maupun tim, diantaranya:
+Mengisi lembar kerja/worksheet capstone individu 
+Lembar kerja/worksheet merupakan dokumen penting yang wajib diisi secara individu untuk mengidentifikasi apa saja aktivitas capstone project yang telah dilakukan oleh masing-masing anggota selama periode tertentu. Worksheet yang sudah terisi selanjutkan akan diverifikasi oleh Tim Pijak untuk melakukan pengecekan atas kesesuaian isian worksheet dengan aktivitas capstone project. 
+Berikut ini merupakan hasil verifikasi yang akan didapatkan oleh peserta:
+Status 1: Selesai
+Lembar kerja capstone telah diisi sebelum proses verifikasi, deskripsi kegiatan jelas, dan bukti pendukung dapat dideteksi.
+Status 2: Selesai (Terlambat)
+Lembar kerja capstone diisi setelah proses verifikasi/di luar jadwal verifikasi (terlambat), namun deskripsi kegiatan jelas, dan bukti pendukung terdeteksi. Dalam hal ini jika kamu terlambat mengisi lembar kerja, kamu akan mendapatkan status verifikasi di minggu berikutnya.
+Status 3: Belum Selesai
+Lembar kerja capstone tidak diisi, deskripsinya tidak jelas, dan tidak ada bukti pendukung bahkan hingga jadwal verifikasi selanjutnya.
+
+Identifikasi Anggota Tidak Aktif
+Tim Pijak akan melakukan identifikasi anggota tidak aktif pada setiap deadline checkpoint. Identifikasi anggota tidak aktif dilakukan melalui isian formulir pengumpulan project plan, laporan kemajuan, project brief, dan 360 feedback. Anggota yang dilaporkan tidak aktif pada salah satu atau ketiga formulir tersebut akan mendapatkan Surat Peringatan dari Tim Pijak.
+Berikut ini merupakan detail jadwal aktivitas checkpoint peserta, pastikan kamu dan seluruh anggota tim telah melengkapi worksheet dan mengisi form yang diperlukan pada tanggal dan waktu checkpoint tersebut:
+*status keaktifan peserta akan diidentifikasi melalui formulir yang diisi oleh Tim Capstone pada 4 formulir di atas.
+Status Keaktifan dan Pelaporan
+Mekanisme Penentuan Status Keaktifan Peserta
+Status keaktifan peserta pada aktivitas capstone project ditentukan oleh beberapa indikator, seperti:
+Partisipasi peserta dalam aktivitas capstone secara individu maupun tim seperti pengisian laporan kemajuan, kehadiran pada  sesi mentoring, pengisian 360 feedback.
+Pelaporan ketidakaktifan melalui formulir laporan peserta tidak aktif
+Pelaporan ketidakaktifan anggota pada 3 tahap checkpoint
+Dalam hal ini, ketidakaktifan peserta sangat dipengaruhi oleh pelaporan anggota tidak aktif melalui 3 tahap checkpoint. Berikut ini merupakan bobot penilaian keaktifan peserta pada masing-masing checkpoint:
+Checkpoint 1 = 25%
+Checkpoint 2 = 35%
+Checkpoint 3 = 40%
+Perhitungan status keaktifan:
+Status akhir peserta ditentukan berdasarkan skor:
+Gagal membaca DOCX: 'charmap' codec can't encode character '\u2265' in position 5: character maps to <undefined>
+
+========== RUBRIK PENILAIAN ==========
+
+--- SHEET: Rubrik Penilaian ---
+     Rubrik Penilaian: Dokumen Project Plan  \
+0                                        No   
+1                                         1   
+2                                         2   
+3                                         3   
+4                                         4   
+5                                         5   
+7   Rubrik Penilaian: Dokumen Project Brief   
+8                                        No   
+9                                         1   
+10                                        2   
+11                                        3   
+12                                        4   
+13                                        5   
+15       Rubrik Penilaian: Video Presentasi   
+16                                       No   
+17                                        1   
+18                                        2   
+19                                        3   
+20                                        4   
+
+                                                                                                                                                                                                                                             Unnamed: 1  \
+0                                                                                                                                                                                                                            Indikator / Poin Penilaian   
+1                   Ringkasan Eksekutif\nRencana proyek menjelaskan dengan jelas pernyataan masalah dan latar belakang proyek (sesuai dengan use case perusahaan), termasuk menjelaskan mengapa solusi yang dihasilkan akan bermanfaat bagi perusahaan.   
+2                                                         Keselarasan antara Ruang Lingkup dan Jadwal Proyek\nRencana proyek memberikan gambaran umum tentang garis besar proyek dan cakupan waktu yang dibutuhkan untuk menyelesaikan proyek tersebut.   
+3   Sumber daya untuk proyek diuraikan dengan jelas\nRencana proyek memberikan informasi sumber daya yang jelas yang akan digunakan untuk pelaksanaan proyek dan memberikan penjelasan secara ringkas apa fungsi dari sumber daya/tools yang digunakan.   
+4                                                                                                                                                   Inovasi\nIde proyek tim sangat inovatif, dapat membantu memecahkan masalah yang dihadapi perusahaan   
+5                                                                                                              Kemungkinan Realisasi\nIde tim memiliki kemungkinan besar untuk direalisasikan dengan jangka waktu dan resource yang digunakan/dimiliki.   
+7                                                                                                                                                                                                                                                   NaN   
+8                                                                                                                                                                                                                            Indikator / Poin Penilaian   
+9                                                                                       Pemenuhan Indikator Teknis \nSolusi digital yang diciptakan harus memenuhi kriteria minimum dan menyelesaikan beberapa checklist indikator teknis (Tech Stack).   
+10                                                                                                                                        Ide dan Inovasi\nSolusi digital memiliki nilai kebaruan/keunikan/berbeda dari inovasi sejenis yang sudah ada.   
+11                                                                                             Dokumentasi dan Fungsionalitas Dokumen\nDokumen project brief membantu memahami proyek dan seluruh link/dokumen pendukung dapat diakses serta berfungsi.   
+12                                                                                                                                                    Desain dan Kemudahan Penggunaan\nDesain solusi digital menarik dan mudah digunakan oleh pengguna.   
+13                                                                                                                                             Penyelesaian Proyek\nBerdasarkan penilaian keseluruhan dari Capstone Project, proyek telah selesai 100%.   
+15                                                                                                                                                                                                                                                  NaN   
+16                                                                                                                                                                                                                           Indikator / Poin Penilaian   
+17                                                                   Presentasi yang terstruktur dan mudah dipahami\nPresentasi disampaikan dengan struktur yang jelas (pendahuluan, latar belakang, solusi/proyek, hasil, penutup) dan mudah dipahami.   
+18                                                                                                    Visualisasi dan alur presentasi yang menarik\nVideo memiliki kualitas gambar dan suara yang jelas, alur menarik, dan visual mendukung penjelasan.   
+19                                                                                                                      Demonstrasi dan fungsi produk disampaikan dengan jelas\nTerdapat demonstrasi langsung dan fungsi utama ditampilkan dengan baik.   
+20                                                                                                                                                                    Pemanfaatan waktu presentasi\nWaktu presentasi 10 menit digunakan secara optimal.   
+
+                                                        Unnamed: 2  \
+0                                       Sangat Tidak Jelas (10–20)   
+1       Tidak relevan, sangat minim, atau tidak menjawab indikator   
+2                Scope/timeline tidak jelas atau tidak berhubungan   
+3                          Tidak menjelaskan resource dengan benar   
+4                                          Tidak ada unsur inovasi   
+5                                                  Tidak realistis   
+7                                                              NaN   
+8                                       Sangat Tidak Jelas (10–20)   
+9                            Tidak memenuhi indikator teknis utama   
+10                Tidak ada kebaruan, meniru solusi yang sudah ada   
+11  Dokumen tidak lengkap dan sulit dipahami, link tidak berfungsi   
+12                                Desain buruk dan sulit digunakan   
+13                  Proyek belum selesai dan tidak dapat digunakan   
+15                                                             NaN   
+16                                      Sangat Tidak Jelas (10–20)   
+17                            Tidak terstruktur dan sulit dipahami   
+18                 Kualitas visual/audio buruk dan tidak mendukung   
+19                                           Tidak ada demonstrasi   
+20                                       Sangat tidak sesuai waktu   
+
+                                                              Unnamed: 3  \
+0                                                    Tidak Jelas (30–40)   
+1                 Penjelasan tidak lengkap, sebagian besar tidak relevan   
+2       Ada scope/timeline tetapi tidak realistis atau tidak terstruktur   
+3                      Menjelaskan sebagian resource namun tidak relevan   
+4                                             Inovasi lemah atau generik   
+5                         Realisasi rendah, banyak risiko tanpa mitigasi   
+7                                                                    NaN   
+8                                                    Tidak Jelas (30–40)   
+9                               Hanya sedikit indikator teknis terpenuhi   
+10                    Solusi sangat umum dan tidak memiliki diferensiasi   
+11  Dokumen ada namun tidak terstruktur, banyak link tidak dapat diakses   
+12                               Desain kurang menarik dan membingungkan   
+13                                      Banyak fitur utama belum selesai   
+15                                                                   NaN   
+16                                                   Tidak Jelas (30–40)   
+17                                Struktur tidak jelas dan membingungkan   
+18                          Kualitas kurang jelas dan alur membingungkan   
+19                            Demonstrasi tidak jelas atau tidak lengkap   
+20                                Tidak optimal (terlalu panjang/pendek)   
+
+                                                                       Unnamed: 4  \
+0                                                             Cukup Jelas (50–60)   
+1                            Penjelasan cukup, namun masih umum atau tidak detail   
+2                                          Scope cukup jelas tetapi masih ada gap   
+3                                        Menjelaskan resource namun kurang detail   
+4                                             Ada elemen inovatif namun sederhana   
+5                                           Realistis namun dengan beberapa celah   
+7                                                                             NaN   
+8                                                             Cukup Jelas (50–60)   
+9                                             Sebagian indikator teknis terpenuhi   
+10                                   Ada sedikit perbedaan namun belum signifikan   
+11  Dokumen cukup jelas namun masih ada bagian tidak lengkap atau link bermasalah   
+12                                    Desain cukup namun usability masih terbatas   
+13                     Sebagian besar fitur selesai namun masih banyak kekurangan   
+15                                                                            NaN   
+16                                                            Cukup Jelas (50–60)   
+17                           Struktur ada namun tidak konsisten dan kurang runtut   
+18                                  Kualitas cukup, namun visual kurang mendukung   
+19                                                 Demonstrasi ada namun terbatas   
+20                          Cukup sesuai namun beberapa bagian tidak tersampaikan   
+
+                                                       Unnamed: 5  \
+0                                                   Jelas (70–80)   
+1                                 Jelas, lengkap, dan terstruktur   
+2                Scope dan timeline logis, jelas, dan terstruktur   
+3                                    Resource lengkap dan relevan   
+4                Inovasi jelas dan membantu menyelesaikan masalah   
+5                                    Realistis, risiko terkontrol   
+7                                                             NaN   
+8                                                   Jelas (70–80)   
+9                Mayoritas indikator teknis terpenuhi dengan baik   
+10                    Solusi cukup unik dan memiliki nilai tambah   
+11  Dokumen jelas, terstruktur, dan sebagian besar link berfungsi   
+12                       Desain menarik dan cukup mudah digunakan   
+13                        Fitur utama selesai dan dapat digunakan   
+15                                                            NaN   
+16                                                  Jelas (70–80)   
+17                        Struktur jelas dan cukup mudah dipahami   
+18                       Kualitas baik dan visual cukup mendukung   
+19                 Demonstrasi jelas dan menunjukkan fungsi utama   
+20                  Waktu digunakan dengan baik dan cukup efektif   
+
+                                                                          Unnamed: 6  \
+0                                                              Sangat Jelas (90–100)   
+1                        Sangat jelas, komprehensif, dan memberikan insight tambahan   
+2                                      Sangat jelas, realistis, disertai detail kuat   
+3                              Resource sangat lengkap, detail, dan sesuai kebutuhan   
+4                          Sangat inovatif, berdampak signifikan dan bernilai tinggi   
+5                                   Sangat realistis, risiko rendah, tim sangat siap   
+7                                                                                NaN   
+8                                                              Sangat Jelas (90–100)   
+9                                  Seluruh indikator teknis terpenuhi secara optimal   
+10  Sangat inovatif, unik, dan memiliki diferensiasi tinggi dibanding solusi sejenis   
+11       Sangat lengkap, terstruktur, mudah dipahami, seluruh link berfungsi optimal   
+12                                Desain sangat menarik, intuitif, dan user-friendly   
+13                            Seluruh fitur selesai, stabil, dan siap digunakan/demo   
+15                                                                               NaN   
+16                                                             Sangat Jelas (90–100)   
+17                              Sangat sistematis, runtut, dan sangat mudah dipahami   
+18              Visual sangat menarik, profesional, dan sangat mendukung penyampaian   
+19                            Demonstrasi sangat jelas, lengkap, dan berjalan lancar   
+20   Sangat optimal, seluruh poin tersampaikan dengan efektif dalam waktu yang tepat   
+
+         Unnamed: 7  
+0   Catatan Penilai  
+1               NaN  
+2               NaN  
+3               NaN  
+4               NaN  
+5               NaN  
+7               NaN  
+8   Catatan Penilai  
+9               NaN  
+10              NaN  
+11              NaN  
+12              NaN  
+13              NaN  
+15              NaN  
+16  Catatan Penilai  
+17              NaN  
+18              NaN  
+19              NaN  
+20              NaN  

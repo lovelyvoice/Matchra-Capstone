@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matchra | AI Game Recommender</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-panel">
+            <div class="logo">
+                <i class="ph-fill ph-game-controller"></i>
+                <h2>Matchra</h2>
+            </div>
+            
+            <nav class="menu">
+                <button class="menu-item active" onclick="switchTab('time-budget')">
+                    <i class="ph ph-hourglass-high"></i>
+                    <span>Time & Budget</span>
+                </button>
+                <button class="menu-item" onclick="switchTab('onboarding')">
+                    <i class="ph ph-rocket-launch"></i>
+                    <span>Beginner Guide</span>
+                </button>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>AI Smart Recommender</p>
+                <p class="small">PJK-GM094</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <!-- HEADER -->
+            <header class="header">
+                <h1 id="page-title">Time & Budget Recommender</h1>
+                <p id="page-desc">Temukan game sempurna yang sesuai dengan waktu luang dan dompetmu.</p>
+            </header>
+
+            <!-- INPUT SECTION -->
+            <section class="input-section glass-panel">
+                
+                <!-- TAB 1: Time & Budget Form -->
+                <form id="time-budget-form" class="form-container active">
+                    <div class="form-group">
+                        <label><i class="ph ph-clock"></i> Waktu Luang per Hari (Jam)</label>
+                        <div class="slider-container">
+                            <input type="range" id="tb-time" min="0.5" max="10" step="0.5" value="2" oninput="document.getElementById('time-val').innerText = this.value + ' Jam'">
+                            <span id="time-val" class="badge">2 Jam</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><i class="ph ph-wallet"></i> Budget Maksimal (Rp)</label>
+                        <input type="number" id="tb-budget" value="300000" min="0" step="50000">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label><i class="ph ph-desktop"></i> Platform</label>
+                            <select id="tb-platform">
+                                <option value="windows">Windows (PC)</option>
+                                <option value="mac">MacOS</option>
+                                <option value="linux">Linux</option>
+                            </select>
+                        </div>
+                        <div class="form-group half">
+                            <label><i class="ph ph-tag"></i> Minat / Genre</label>
+                            <input type="text" id="tb-genres" placeholder="Contoh: RPG, Action, Zombie..." required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary">
+                        <i class="ph ph-magnifying-glass"></i> Temukan Game Saya
+                    </button>
+                </form>
+
+                <!-- TAB 2: Onboarding Form -->
+                <form id="onboarding-form" class="form-container" style="display: none;">
+                    <div class="form-group">
+                        <label><i class="ph ph-star"></i> Tipe Pengalaman Bermain</label>
+                        <div class="radio-group">
+                            <label class="radio-card">
+                                <input type="radio" name="ob-exp" value="cerita" checked>
+                                <div class="card-content">
+                                    <i class="ph ph-book-open-text"></i>
+                                    <span>Cerita Mendalam</span>
+                                </div>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="ob-exp" value="aksi">
+                                <div class="card-content">
+                                    <i class="ph ph-sword"></i>
+                                    <span>Aksi & Adrenalin</span>
+                                </div>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="ob-exp" value="puzzle">
+                                <div class="card-content">
+                                    <i class="ph ph-puzzle-piece"></i>
+                                    <span>Teka-Teki (Puzzle)</span>
+                                </div>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="ob-exp" value="santai">
+                                <div class="card-content">
+                                    <i class="ph ph-coffee"></i>
+                                    <span>Santai & Tenang</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><i class="ph ph-desktop"></i> Perangkat yang Dimiliki</label>
+                        <select id="ob-platform">
+                            <option value="windows">Laptop / PC Windows</option>
+                            <option value="mac">MacBook / MacOS</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-primary accent">
+                        <i class="ph ph-magic-wand"></i> Beri Aku Panduan!
+                    </button>
+                </form>
+            </section>
+
+            <!-- RESULTS SECTION -->
+            <section class="results-section">
+                <!-- Loader -->
+                <div id="loader" class="loader-container" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>AI sedang mencari game terbaik untukmu...</p>
+                </div>
+                
+                <!-- Cards Container -->
+                <div id="results-container" class="results-grid">
+                    <!-- Cards will be injected here via JS -->
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
