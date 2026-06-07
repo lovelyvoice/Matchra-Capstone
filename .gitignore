@@ -4,15 +4,8 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Dataset (Ukurannya terlalu besar untuk GitHub)
+# Dataset Mentah (Ukurannya terlalu besar untuk GitHub, ratusan MB)
 data/raw/
-data/processed/
-*.csv
-
-# Model Fisik (Seringkali melebihi limit GitHub, bisa didownload ulang dengan skrip)
-data/model/
-*.pkl
-*.joblib
 
 # OS Files
 .DS_Store
