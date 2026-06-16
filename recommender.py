@@ -67,7 +67,7 @@ class MatchraRecommender:
         lsa_vec = self.svd_pipeline.transform(tfidf_vec)
         # Hitung cosine similarity di ruang laten
         cosine_sim = cosine_similarity(lsa_vec, self.lsa_matrix).flatten()
-        cosine_sim = np.clip(cosine_sim * 3.5, 0, 0.99)
+        cosine_sim = np.clip(cosine_sim * 1.5, 0, 0.99)
         return cosine_sim
 
     def _calculate_score_breakdown(self, game_row, budget_idr, time_hours_per_day,
